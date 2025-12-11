@@ -6,48 +6,49 @@
 
 @layer base {
   :root {
-    --background: 45 100% 97%;
-    --foreground: 25 60% 20%;
+    /* B8D4DF - azul, F0434F - vermelho, FCB341 - amarelo */
+    --background: 195 40% 92%;
+    --foreground: 195 30% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 60% 20%;
+    --card-foreground: 195 30% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 60% 20%;
+    --popover-foreground: 195 30% 20%;
 
-    --primary: 35 95% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 38 97% 62%;
+    --primary-foreground: 195 30% 15%;
 
-    --secondary: 340 75% 65%;
+    --secondary: 355 85% 60%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 45 40% 90%;
-    --muted-foreground: 25 30% 45%;
+    --muted: 195 30% 88%;
+    --muted-foreground: 195 20% 40%;
 
-    --accent: 160 60% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 195 40% 80%;
+    --accent-foreground: 195 30% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 355 85% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 35 30% 85%;
-    --input: 35 30% 85%;
-    --ring: 35 95% 55%;
+    --border: 195 30% 80%;
+    --input: 195 30% 85%;
+    --ring: 38 97% 62%;
 
     --radius: 1rem;
 
-    /* Custom colors */
-    --sunshine: 45 100% 60%;
-    --coral: 15 85% 60%;
-    --mint: 160 50% 65%;
+    /* Brand colors - Casa do Vovô */
+    --sunshine: 38 97% 62%;
+    --coral: 355 85% 60%;
+    --mint: 195 40% 80%;
     --lavender: 270 60% 75%;
-    --sky: 200 80% 70%;
-    --candy-pink: 340 80% 70%;
+    --sky: 195 40% 80%;
+    --candy-pink: 355 75% 70%;
 
     /* Gradients */
-    --gradient-sunshine: linear-gradient(135deg, hsl(45 100% 60%), hsl(35 95% 55%));
-    --gradient-party: linear-gradient(135deg, hsl(340 75% 65%), hsl(35 95% 55%));
-    --gradient-sky: linear-gradient(180deg, hsl(200 80% 85%), hsl(45 100% 97%));
+    --gradient-sunshine: linear-gradient(135deg, hsl(38 97% 62%), hsl(38 97% 52%));
+    --gradient-party: linear-gradient(135deg, hsl(355 85% 60%), hsl(38 97% 62%));
+    --gradient-sky: linear-gradient(180deg, hsl(195 40% 85%), hsl(195 40% 92%));
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -60,33 +61,33 @@
   }
 
   .dark {
-    --background: 25 30% 10%;
-    --foreground: 45 100% 97%;
+    --background: 195 30% 12%;
+    --foreground: 195 40% 92%;
 
-    --card: 25 30% 15%;
-    --card-foreground: 45 100% 97%;
+    --card: 195 25% 18%;
+    --card-foreground: 195 40% 92%;
 
-    --popover: 25 30% 15%;
-    --popover-foreground: 45 100% 97%;
+    --popover: 195 25% 18%;
+    --popover-foreground: 195 40% 92%;
 
-    --primary: 35 95% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 38 97% 62%;
+    --primary-foreground: 195 30% 15%;
 
-    --secondary: 340 75% 65%;
+    --secondary: 355 85% 60%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 20% 20%;
-    --muted-foreground: 45 30% 70%;
+    --muted: 195 20% 22%;
+    --muted-foreground: 195 30% 65%;
 
-    --accent: 160 60% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 195 40% 35%;
+    --accent-foreground: 195 40% 92%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 355 75% 45%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 25 20% 25%;
-    --input: 25 20% 25%;
-    --ring: 35 95% 55%;
+    --border: 195 20% 28%;
+    --input: 195 20% 28%;
+    --ring: 38 97% 62%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
