@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Balloon } from "@/components/Balloon";
-import logo from "@/assets/logo-casa-do-vovo.png";
+import logo from "@/assets/logo-cosme-festa.webp";
 import { Sparkles, PartyPopper, Heart } from "lucide-react";
 
 export function Hero() {
@@ -34,14 +34,14 @@ export function Hero() {
           <div className="mb-8 animate-scale-bounce">
             <img 
               src={logo} 
-              alt="Casa do Vovô - Buffet Infantil" 
+              alt="Cosme Festa e Buffet" 
               className="w-48 h-48 md:w-64 md:h-64 mx-auto drop-shadow-2xl rounded-full"
             />
           </div>
 
           {/* Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-fredoka font-bold mb-4 text-gradient">
-            Casa do Vovô
+            Cosme Festa e Buffet
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto font-nunito">

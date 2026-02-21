@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-casa-do-vovo.png";
+import logo from "@/assets/logo-cosme-festa.webp";
 import { Heart } from "lucide-react";
 
 export function Footer() {
@@ -10,11 +10,11 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <img 
               src={logo} 
-              alt="Casa do Vovô" 
+              alt="Cosme Festa e Buffet" 
               className="w-16 h-16 rounded-full"
             />
             <div>
-              <h3 className="font-fredoka font-bold text-xl">Casa do Vovô</h3>
+              <h3 className="font-fredoka font-bold text-xl">Cosme Festa e Buffet</h3>
               <p className="text-background/60 text-sm">Onde a magia acontece! ✨</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-background/10 text-center text-sm text-background/40">
-          © {new Date().getFullYear()} Casa do Vovô Buffet Infantil. Todos os direitos reservados.
+          © {new Date().getFullYear()} Cosme Festa e Buffet. Todos os direitos reservados.
         </div>
       </div>
     </footer>

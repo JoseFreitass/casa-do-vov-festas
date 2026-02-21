@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo-casa-do-vovo.png";
+import logo from "@/assets/logo-cosme-festa.webp";
 
 const navLinks = [
   { label: "Início", href: "#" },
@@ -37,11 +37,11 @@ export function Navbar() {
           <a href="#" className="flex items-center gap-3">
             <img 
               src={logo} 
-              alt="Casa do Vovô" 
+              alt="Cosme Festa e Buffet" 
               className="w-12 h-12 rounded-full shadow-md"
             />
             <span className="font-fredoka font-bold text-xl hidden sm:block">
-              Casa do Vovô
+              Cosme Festa e Buffet
             </span>
           </a>
 
