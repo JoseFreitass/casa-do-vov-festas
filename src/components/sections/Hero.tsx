@@ -35,7 +35,7 @@ export function Hero() {
             <img 
               src={logo} 
               alt="Cosme Festa e Buffet" 
-              className="w-48 h-48 md:w-64 md:h-64 mx-auto drop-shadow-md rounded-3xl border border-border/30 bg-card/50 backdrop-blur-sm p-4 object-contain"
+              className="w-48 h-48 md:w-64 md:h-64 mx-auto drop-shadow-md rounded-full border border-border/30 bg-card/50 backdrop-blur-sm p-4 object-contain"
             />
           </div>
 
