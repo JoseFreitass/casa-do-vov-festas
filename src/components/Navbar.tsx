@@ -38,7 +38,7 @@ export function Navbar() {
             <img 
               src={logo} 
               alt="Cosme Festa e Buffet" 
-              className="w-12 h-12 rounded-full shadow-md"
+              className="w-12 h-12 object-contain"
             />
             <span className="font-fredoka font-bold text-xl hidden sm:block">
               Cosme Festa e Buffet

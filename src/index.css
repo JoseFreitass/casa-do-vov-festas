@@ -6,49 +6,48 @@
 
 @layer base {
   :root {
-    /* 7AF7F8 - ciano, FCFF65 - amarelo, FFC3C5 - rosa claro */
-    --background: 180 30% 94%;
-    --foreground: 180 20% 20%;
+    /* Paleta suave inspirada no logo */
+    --background: 210 20% 96%;
+    --foreground: 220 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 180 20% 20%;
+    --card-foreground: 220 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 180 20% 20%;
+    --popover-foreground: 220 25% 20%;
 
-    --primary: 180 90% 73%;
-    --primary-foreground: 180 30% 15%;
+    --primary: 180 55% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 355 100% 88%;
-    --secondary-foreground: 355 40% 30%;
+    --secondary: 355 60% 75%;
+    --secondary-foreground: 355 40% 25%;
 
-    --muted: 180 20% 90%;
-    --muted-foreground: 180 15% 40%;
+    --muted: 210 15% 92%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 60 97% 69%;
-    --accent-foreground: 60 40% 20%;
+    --accent: 50 70% 65%;
+    --accent-foreground: 50 40% 18%;
 
-    --destructive: 355 85% 60%;
+    --destructive: 355 65% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 180 20% 85%;
-    --input: 180 20% 88%;
-    --ring: 180 90% 73%;
+    --border: 210 15% 88%;
+    --input: 210 15% 90%;
+    --ring: 180 55% 55%;
 
     --radius: 1rem;
 
     /* Brand colors - Cosme Festa e Buffet */
-    --sunshine: 60 97% 69%;
-    --coral: 355 100% 88%;
-    --mint: 180 90% 73%;
-    --lavender: 270 60% 75%;
-    --sky: 180 90% 73%;
-    --candy-pink: 355 100% 88%;
+    --sunshine: 50 70% 65%;
+    --coral: 355 60% 75%;
+    --mint: 180 40% 70%;
+    --lavender: 270 40% 72%;
+    --sky: 200 50% 72%;
+    --candy-pink: 355 55% 78%;
 
-    /* Gradients */
-    --gradient-sunshine: linear-gradient(135deg, hsl(60 97% 69%), hsl(60 97% 59%));
-    --gradient-party: linear-gradient(135deg, hsl(355 100% 88%), hsl(180 90% 73%));
-    --gradient-sky: linear-gradient(180deg, hsl(180 30% 90%), hsl(180 30% 94%));
+    --gradient-sunshine: linear-gradient(135deg, hsl(50 70% 65%), hsl(50 70% 55%));
+    --gradient-party: linear-gradient(135deg, hsl(355 60% 75%), hsl(180 55% 55%));
+    --gradient-sky: linear-gradient(180deg, hsl(210 20% 93%), hsl(210 20% 96%));
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
