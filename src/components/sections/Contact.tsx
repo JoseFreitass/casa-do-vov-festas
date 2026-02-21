@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "contato@casadovovo.com.br",
+    value: "contato@cosmefestaebuffet.com.br",
     color: "bg-lavender/10 text-lavender",
   },
 ];

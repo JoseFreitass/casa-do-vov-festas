@@ -31,7 +31,7 @@ export function Gallery() {
             <span className="text-gradient">Galeria</span> de Momentos
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cada festa é única! Veja um pouco da magia que acontece na Casa do Vovô 📸
+            Cada festa é única! Veja um pouco da magia que acontece no Cosme Festa e Buffet 📸
           </p>
         </div>
 

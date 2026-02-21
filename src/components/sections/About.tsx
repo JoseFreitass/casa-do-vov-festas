@@ -39,7 +39,7 @@ export function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-fredoka font-bold mb-4">
             Por que escolher a{" "}
-            <span className="text-gradient">Casa do Vovô</span>?
+            <span className="text-gradient">Cosme Festa e Buffet</span>?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Somos mais que um buffet infantil, somos realizadores de sonhos! 
@@ -74,10 +74,9 @@ export function About() {
                 <div className="text-6xl mb-4">🏠</div>
                 <h3 className="text-2xl font-fredoka font-bold mb-4">Nossa História</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  A Casa do Vovô nasceu do sonho de criar um lugar especial onde 
-                  as crianças pudessem viver aventuras incríveis. Com o carinho de 
-                  uma casa de avós e a diversão de um parque, transformamos cada 
-                  festa em uma experiência única e mágica.
+                  O Cosme Festa e Buffet nasceu do sonho de criar um lugar especial onde 
+                  as crianças pudessem viver aventuras incríveis. Com carinho e 
+                  dedicação, transformamos cada festa em uma experiência única e mágica.
                 </p>
               </div>
             </div>
