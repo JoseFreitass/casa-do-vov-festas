@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Balloon } from "@/components/Balloon";
-import logo from "@/assets/logo-cosme-festa.webp";
+import logo from "@/assets/logo-cosme-festa.png";
 import { Sparkles, PartyPopper, Heart } from "lucide-react";
 
 export function Hero() {

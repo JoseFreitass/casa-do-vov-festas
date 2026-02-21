@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-cosme-festa.webp";
+import logo from "@/assets/logo-cosme-festa.png";
 import { Heart } from "lucide-react";
 
 export function Footer() {
