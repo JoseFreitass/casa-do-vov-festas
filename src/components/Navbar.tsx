@@ -41,7 +41,7 @@ export function Navbar() {
               className="w-12 h-12 object-contain"
             />
             <span className="font-fredoka font-bold text-xl hidden sm:block">
-              Cosme Festa e Buffet
+              Cosme Festa Buffet
             </span>
           </a>
 
